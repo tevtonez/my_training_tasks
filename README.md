@@ -31,7 +31,6 @@ output should be:
 3 match(es) for number(s) 1, 6, 8
 
 
-## The list of tasks ##
 ### Task 2 ###
 ### Lists comparator  OOP ###
 Create a function that takes one argument 'litsts_length' which is equals
@@ -92,7 +91,7 @@ infect 2 more people in 24 hours and so one.
 The function should say in how many hours the whole city will fall if no counter measures are
 taken.
 
-OUTPUT EXAMPLE
+*OUTPUT EXAMPLE*
 "The city with the population of 300,000 people will be 100% infected in 96 hours if disease
 spreading speed is 2 persons in 24 hours"
 
@@ -102,15 +101,15 @@ spreading speed is 2 persons in 24 hours"
 Create a function that takes three arguments 'x' (int), 'y' (int) and 'char' (str) and prints
 a play field 'x'-width, 'y'-high filled with 'char's
 
-EXAMPLE
+*EXAMPLE*
 x = 4
 y = 3
-char = *
+char = o
 
 output:
-****
-****
-****
+oooo
+oooo
+oooo
 
 
 ### Task 6 ###
@@ -119,15 +118,15 @@ Using function from the task 5 create a play field. Then create a function that 
 "player" (any character that is different from the field's background) in a x, y position.
 Note: the top left matrix cell has (1, 1) coordinates.
 
-EXAMPLE
+*EXAMPLE*
 x = 2
 y = 2
 char = x
 
 Possible output:
-****
-*x**
-****
+oooo
+oxoo
+oooo
 
 
 ### Task 7 ###
@@ -136,7 +135,7 @@ Write area calculator function that takes number of arguments (1 arg. for circle
 or rectangle, 3 for triangle, 4 for trapeze), automatically detects which equation should it use
 and then calculates and shows the surface area result.
 
-Possible output:
+*Possible output:*
 
 =========================
 | AREA CALCULATOR v.0.1 |
@@ -158,7 +157,7 @@ Write area calculator function that ask a user to provide the size of an area th
 should be covered with ceramic tiles and the size of a ceramic tile and then
 calculate the number of tiles needed to cover the area. Then prints the number.
 
-Possible output:
+*Possible output:*
 
 =========================
 | Tiles CALCULATOR v.0.1 |
@@ -180,6 +179,7 @@ Write a HTML parser using HTMLParser and urllib.request that parses
 the content from a given website and prints the content of all
 headers on the page and the URLs of all <a> tags.
 
+*Possible output:*
 =========================
 website parser v.1
 =========================
