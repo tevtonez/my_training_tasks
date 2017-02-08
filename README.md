@@ -15,10 +15,7 @@ I've moved this repo from my private repository but files have date stamps of cr
 ## The list of tasks ##
 ### Task 1 ###
 ### Lists comparator ###
-Create a function that takes one argument 'lists_length' which is equals
-10 by default, creates 2 lists with length = 'lists_length', then shuffles list
-items in both lists and then compares list items one by one finding matching numbers
-and then prints number of occurred coincidences and numbers that matched.
+Create a function that takes one argument 'lists_length' which is equals 10 by default, creates 2 lists with length = 'lists_length', then shuffles list items in both lists and then compares list items one by one finding matching numbers and then prints number of occurred coincidences and numbers that matched.
 
 
 *EXAMPLE*
@@ -55,8 +52,7 @@ output should be:
 ### Poll script + i/o ###
 Create a script that asks user a question with 3 possible answers: "Yes", "No", "Maybe".
 The results should be written in a log file with the date and time of line creation.
-Once log file contains 10 or more lines script should show total number of voted users and
-percentage for every answer.
+Once log file contains 10 or more lines script should show total number of voted users and percentage for every answer.
 Do not use modules math or course or similar. Write everything you need manually
 
 
@@ -83,23 +79,17 @@ Write a function that takes three arguments:
 
 Then function should calculate in which time the whole population of the city will be infected.
 
-For example, we have a city with 300,000 people and one infected person (which is called
-"patient zero") at the beginning.
-Let's say the spreading speed of this disease is 24 hours and the number of people that will be
-infected by contacting the "patient zero" in 24 equals 2. Then each of the infected people will
-infect 2 more people in 24 hours and so one.
-The function should say in how many hours the whole city will fall if no counter measures are
-taken.
+For example, we have a city with 300,000 people and one infected person (which is called "patient zero") at the beginning.
+Let's say the spreading speed of this disease is 24 hours and the number of people that will be infected by contacting the "patient zero" in 24 equals 2. Then each of the infected people will infect 2 more people in 24 hours and so one.
+The function should say in how many hours the whole city will fall if no counter measures are taken.
 
 *OUTPUT EXAMPLE*
-"The city with the population of 300,000 people will be 100% infected in 96 hours if disease
-spreading speed is 2 persons in 24 hours"
+"The city with the population of 300,000 people will be 100% infected in 96 hours if disease spreading speed is 2 persons in 24 hours"
 
 
 ### Task 5 ###
 ### Displaying x,y matrix ###
-Create a function that takes three arguments 'x' (int), 'y' (int) and 'char' (str) and prints
-a play field 'x'-width, 'y'-high filled with 'char's
+Create a function that takes three arguments 'x' (int), 'y' (int) and 'char' (str) and prints a play field 'x'-width, 'y'-high filled with 'char's
 
 *EXAMPLE*
 x = 4
@@ -114,8 +104,7 @@ oooo
 
 ### Task 6 ###
 ### Displaying a 'player' in x,y position in the matrix ###
-Using function from the task 5 create a play field. Then create a function that places a
-"player" (any character that is different from the field's background) in a x, y position.
+Using function from the task 5 create a play field. Then create a function that places a "player" (any character that is different from the field's background) in a x, y position.
 Note: the top left matrix cell has (1, 1) coordinates.
 
 *EXAMPLE*
@@ -131,9 +120,7 @@ oooo
 
 ### Task 7 ###
 ### Simple area calculator ###
-Write area calculator function that takes number of arguments (1 arg. for circle, 2 for square
-or rectangle, 3 for triangle, 4 for trapeze), automatically detects which equation should it use
-and then calculates and shows the surface area result.
+Write area calculator function that takes number of arguments (1 arg. for circle, 2 for square or rectangle, 3 for triangle, 4 for trapeze), automatically detects which equation should it use and then calculates and shows the surface area result.
 
 *Possible output:*
 
@@ -153,9 +140,7 @@ The area of RECTANGLE is 20 square units.
 
 ### Task 8 ###
 ### Tiles calculator ###
-Write area calculator function that ask a user to provide the size of an area that
-should be covered with ceramic tiles and the size of a ceramic tile and then
-calculate the number of tiles needed to cover the area. Then prints the number.
+Write area calculator function that ask a user to provide the size of an area that should be covered with ceramic tiles and the size of a ceramic tile and then calculate the number of tiles needed to cover the area. Then prints the number.
 
 *Possible output:*
 
@@ -175,9 +160,7 @@ You'll need 200 tiles to cover 20 square units area.
 ### Task 9 ###
 ### The parser  ###
 TASK
-Write a HTML parser using HTMLParser and urllib.request that parses
-the content from a given website and prints the content of all
-headers on the page and the URLs of all <a> tags.
+Write a HTML parser using HTMLParser and urllib.request that parses the content from a given website and prints the content of all headers on the page and the URLs of all <a> tags.
 
 *Possible output:*
 =========================
@@ -196,6 +179,15 @@ The URLs on the page are:
 http://google.com
 http://gmail.com
 http://yahoo.com
+
+
+
+### Task 10 ###
+### The Company and its workers  ###
+TASK
+Create a class 'Company' that contains objects of 2 classes of workers that derived from parent class 'Worker': 'Manager' and 'Engineer'.
+Workers should have fields: 'name', 'job_title' 'office_number', 'project'.
+'Company' class should have methods: 'ShowManagers', 'ShowEngineers', 'ShowAll'. These methods should print the lists of related objects.
 
 
 
