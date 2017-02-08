@@ -10,15 +10,25 @@ Workers should have fields: 'name', 'job_title' 'office_number', 'project'.
 'ShowAll'. These methods should print the lists of related objects.
 
 '''
+from abc import ABCMeta, abstractmethod
 
 if __name__ == '__main__':
 
-    class Worker():
+
+    class Worker( metaclass = ABCMeta ):
+        """represents any worker in the company"""
 
         def __init__( self, name, office_number, project ):
             self.name = name
             self.office_number = office_number
             self.project = project
+
+        @abstractmethod
+        def show_info( self ):
+            """shows info about object"""
+
+            print( "Name: {},\tOffice: {},\tProject: {};".format( self.name, \
+                    str( self.office_number ), self.project ), end = "\t" )
 
 
 
@@ -28,10 +38,10 @@ if __name__ == '__main__':
             Worker.__init__( self, name, office_number, project )
             self.job_title = job_title
 
-        def __str__( self ):
-            return ( "Name: {},\tJob title: {},\tOffice: {},\tProject: {};" ).\
-                     format( self.name, self.job_title, str( self.office_number ), \
-                             self.project )
+        def show_info( self ):
+            """shows info about Manager"""
+            Worker.show_info( self )
+            print( "Job title: {}".format( self.job_title ) )
 
 
 
@@ -41,11 +51,10 @@ if __name__ == '__main__':
             Worker.__init__( self, name, office_number, project )
             self.job_title = job_title
 
-        def __str__( self ):
-            return ( "Name: {},\tJob title: {},\tOffice: {},\tProject: {};" ).\
-                     format( self.name, self.job_title, str( self.office_number ), \
-                             self.project )
-
+        def show_info( self ):
+            """shows info about Engineer"""
+            Worker.show_info( self )
+            print( "Job title: {}".format( self.job_title ) )
 
 
     class Company():
@@ -71,7 +80,7 @@ if __name__ == '__main__':
             """
             print( "Showing all workers:\n" )
             for worker in self.list_of_workers:
-                print( worker )
+                worker.show_info()
 
 
         def ShowManagers( self ):
@@ -81,7 +90,7 @@ if __name__ == '__main__':
             print( "Showing all Managers:\n" )
             for worker in self.list_of_workers:
                 if worker.job_title == "Manager":
-                    print ( worker )
+                    worker.show_info()
 
 
         def ShowEngineers( self ):
@@ -91,7 +100,7 @@ if __name__ == '__main__':
             print( "Showing all Engineers:\n" )
             for worker in self.list_of_workers:
                 if worker.job_title == "Engineer":
-                    print ( worker )
+                    worker.show_info()
 
 
     #===========================================================================
@@ -106,7 +115,7 @@ if __name__ == '__main__':
     company.ShowEngineers()  # Showing all Engineers
 
 #===============================================================================
-# time spent: 30 min
+# time spent: 40 min
 #===============================================================================
 
 
