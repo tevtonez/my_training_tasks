@@ -10,9 +10,6 @@ Workers should have fields: 'name', 'job_title' 'office_number', 'project'.
 'ShowAll'. These methods should print the lists of related objects.
 
 '''
-from ctypes.test.test_pickling import name
-from multiprocessing.pool import worker
-
 
 if __name__ == '__main__':
 
