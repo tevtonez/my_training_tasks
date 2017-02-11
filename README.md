@@ -191,5 +191,28 @@ Workers should have fields: 'name', 'job_title' 'office_number', 'project'.
 
 
 
+### Task 11 ###
+### Math exercise generator  ###
+TASK
+Write a script that generates text file with math exercises that contain random numbers.
+The exercises should contain addition, subtraction and multiplication.
+The exercises should be put into txt file in 3 columns: first col - addition, second - subtraction, third - multiplication.
+
+The addition and subtraction exercises should look like:
+[number from 1 to 99] + [number from 1 to 99] =
+[number from 1 to 99] - [number from 1 to 99] =
+
+The multiplication exercises should operate with numbers
+[number from 1 to 99] * [number from 1 to 9] =
+[number from 1 to 9] * [number from 1 to 99] =
+
+
+EXTRAS:
+1. generate a file with answers
+
+
+
+
 ### Who do I talk to? ###
 * Repo [owner or admin](mailto:tevtonez@gmail.com)
+
