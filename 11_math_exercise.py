@@ -19,6 +19,7 @@ The multiplication exercises should operate with numbers
 
 EXTRAS:
 1. generate a file with answers
+2. avoid negative numbers in subtraction results
 
 '''
 import random
@@ -30,9 +31,19 @@ if __name__ == '__main__':
         exercise_addition = str( random.choice( range( 99 ) ) ) + " + " + str( random.choice( range( 99 ) ) ) + " ="
         return exercise_addition
 
+
     def gen_subtraction():
         '''Generates subtraction exercises'''
-        exercise_subtraction = str( random.choice( range( 99 ) ) ) + " - " + str( random.choice( range( 99 ) ) ) + " ="
+
+        while True:
+            first_num = str( random.choice( range( 1, 99 ) ) )
+            second_num = str( random.choice( range( 1, 99 ) ) )
+
+            if int( first_num ) > int( second_num ):
+                exercise_subtraction = first_num + " - " + second_num + " ="
+                break
+
+
         return exercise_subtraction
 
     def gen_multiplicaction():
@@ -41,6 +52,7 @@ if __name__ == '__main__':
         while True:
             first_num = str( random.choice( range( 1, 99 ) ) )
             second_num = str( random.choice( range( 1, 99 ) ) )
+
             if int( first_num ) < 11 or int( second_num ) < 11:
                 exercise_multiplicaction = first_num + " • " + second_num + " ="
                 break
