@@ -21,8 +21,12 @@ Create a function that takes one argument 'lists_length' which is equals 10 by d
 *EXAMPLE*
 
 For lists
+
 a = [2, 0, 3, 4, 1, 7, 5, 6, 9, 8]
+
 b = [7, 5, 2, 9, 1, 0, 3, 6, 4, 8]
+
+
 
 output should be:
 3 match(es) for number(s) 1, 6, 8
@@ -41,10 +45,13 @@ Make sure it works for uneven lists!
 *EXAMPLE*
 
 For lists
+
 a = [2, 0, 3, 4, 1, 7, 5, 6, 9, 8]
+
 b = [7, 5, 2, 9, 1, 0, 3, 6, 4, 8]
 
 output should be:
+
 3 match(es) for number(s) 1, 6, 8
 
 
@@ -97,9 +104,9 @@ y = 3
 char = o
 
 output:
-oooo
-oooo
-oooo
+```oooo```
+```oooo```
+```oooo```
 
 
 ### Task 6 ###
@@ -113,9 +120,9 @@ y = 2
 char = x
 
 Possible output:
-oooo
-oxoo
-oooo
+```oooo```
+```oxoo```
+```oooo```
 
 
 ### Task 7 ###
@@ -123,7 +130,7 @@ oooo
 Write area calculator function that takes number of arguments (1 arg. for circle, 2 for square or rectangle, 3 for triangle, 4 for trapeze), automatically detects which equation should it use and then calculates and shows the surface area result.
 
 *Possible output:*
-
+```
 =========================
 | AREA CALCULATOR v.0.1 |
 =========================
@@ -132,8 +139,8 @@ For CIRCLE area enter radius length and hit enter.
 For SQUARE/RECTANGLE area enter high and length separated by comma.
 For TRIANGLE area enter 3 lengths of its sides separated by commas.
 For TRAPEZE area enter 4 lengths of its sides separated by commas.
-
-Your input: 5, 4
+```
+Your input: ```5, 4```
 
 The area of RECTANGLE is 20 square units.
 
