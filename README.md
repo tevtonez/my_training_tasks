@@ -224,7 +224,11 @@ TASK(s)
 6. write a script that iterates through files only and changes their names to test-[n].txt , where [n] is the number from 1 to 5. Also print new names.
 7. write a script that deletes all directories and files you've created during previous steps. Be careful when working on this task!
 
-
+## Task 13 ###
+### Name generator  ###
+TASK
+Write a function that asks user for desired name length and for quantity of names to be generated.
+Print out the names at the end.
 
 
 ### Who do I talk to? ###
