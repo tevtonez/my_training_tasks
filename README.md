@@ -219,7 +219,9 @@ The multiplication exercises should operate with numbers
 
 
 EXTRAS:
+
 1. generate a file with answers
+
 2. avoid negative numbers in subtraction results
 
 
