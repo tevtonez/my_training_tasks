@@ -104,10 +104,11 @@ y = 3
 char = o
 
 output:
-```oooo```
-```oooo```
-```oooo```
-
+```
+oooo
+oooo
+oooo
+```
 
 ### Task 6 ###
 ### Displaying a 'player' in x,y position in the matrix ###
@@ -120,9 +121,11 @@ y = 2
 char = x
 
 Possible output:
-```oooo```
-```oxoo```
-```oooo```
+```
+oooo
+oxoo
+oooo
+```
 
 
 ### Task 7 ###
