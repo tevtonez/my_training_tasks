@@ -153,7 +153,7 @@ The area of RECTANGLE is 20 square units.
 Write area calculator function that ask a user to provide the size of an area that should be covered with ceramic tiles and the size of a ceramic tile and then calculate the number of tiles needed to cover the area. Then prints the number.
 
 *Possible output:*
-
+```
 =========================
 | Tiles CALCULATOR v.0.1 |
 =========================
@@ -165,14 +165,16 @@ userinput - 0.1, 0.1
 
 You'll need 200 tiles to cover 20 square units area.
 
-
+```
 
 ### Task 9 ###
 ### The parser  ###
 TASK
 Write a HTML parser using HTMLParser and urllib.request that parses the content from a given website and prints the content of all headers on the page and the URLs of all <a> tags.
 
+
 *Possible output:*
+```
 =========================
 website parser v.1
 =========================
@@ -189,8 +191,7 @@ The URLs on the page are:
 http://google.com
 http://gmail.com
 http://yahoo.com
-
-
+```
 
 ### Task 10 ###
 ### The Company and its workers  ###
