@@ -212,6 +212,19 @@ EXTRAS:
 2. avoid negative numbers in subtraction results
 
 
+## Task 12 ###
+### Work with paths  ###
+TASK(s)
+
+1. print full path of your working directory.
+2. write a script that creates a directory 'test1' in your working directory. Make script to ignore if the directory exists.
+3. write a script that creates a sub-directory in 'test1'. Name it 'test2'. Make script to ignore if the directory exists.
+4. write a script that creates 5 files in sub-directory 'test1'. Name files test-1-[n].txt , where [n] is the number from 1 to 5.
+5. write a script that prints the number of all items in 'test1' directory.
+6. write a script that iterates through files only and changes their names to test-[n].txt , where [n] is the number from 1 to 5. Also print new names.
+7. write a script that deletes all directories and files you've created during previous steps. Be careful when working on this task!
+
+
 
 
 ### Who do I talk to? ###
