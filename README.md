@@ -244,7 +244,7 @@ Write a function that asks user for desired name length and for quantity of name
 Print out the names at the end.
 
 ### Task 14 ###
-### Name generator  ###
+### Work with JSON  ###
 TASK
 Write a function that creates a JSON file from a given dictionary that contains writers' names and their birthdays.
 Then write another function that opens a JSON file and prints out all key/values pairs.
