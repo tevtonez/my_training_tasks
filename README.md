@@ -225,7 +225,7 @@ EXTRAS:
 2. avoid negative numbers in subtraction results
 
 
-## Task 12 ###
+### Task 12 ###
 ### Work with paths  ###
 TASK(s)
 
@@ -237,12 +237,31 @@ TASK(s)
 6. write a script that iterates through files only and changes their names to test-[n].txt , where [n] is the number from 1 to 5. Also print new names.
 7. write a script that deletes all directories and files you've created during previous steps. Be careful when working on this task!
 
-## Task 13 ###
+### Task 13 ###
 ### Name generator  ###
 TASK
 Write a function that asks user for desired name length and for quantity of names to be generated.
 Print out the names at the end.
 
+### Task 14 ###
+### Name generator  ###
+TASK
+Write a function that creates a JSON file from a given dictionary that contains writers' names and their birthdays.
+Then write another function that opens a JSON file and prints out all key/values pairs.
+
+*Possible output:*
+```
+C. S. Lewis November 29, 1898
+Marion Zimmer Bradley June 3, 1930
+George Orwell June 25, 1903
+J. R. R. Tolkien January 3, 1892
+Ursula K. Le Guin October 21, 1929
+Ray Bradbury August 22, 1920
+Jules Verne February 8, 1828
+Terry Pratchett April 28, 1948
+Anne McCaffrey April 1, 1926
+Roger Zelazny May 13, 1937
+```
 
 ### Who do I talk to? ###
 * Repo [owner or admin](mailto:tevtonez@gmail.com)

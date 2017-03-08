@@ -18,7 +18,6 @@ bd_dict = {
     "Marion Zimmer Bradley": "June 3, 1930",
     "Terry Pratchett": "April 28, 1948",
     "Ray Bradbury": "August 22, 1920",
-    "Elton John": "March 25, 1947",
     "C. S. Lewis": "November 29, 1898",
     "Roger Zelazny": "May 13, 1937"
 }
