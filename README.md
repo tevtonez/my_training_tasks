@@ -21,8 +21,12 @@ Create a function that takes one argument 'lists_length' which is equals 10 by d
 *EXAMPLE*
 
 For lists
+
 a = [2, 0, 3, 4, 1, 7, 5, 6, 9, 8]
+
 b = [7, 5, 2, 9, 1, 0, 3, 6, 4, 8]
+
+
 
 output should be:
 3 match(es) for number(s) 1, 6, 8
@@ -41,10 +45,13 @@ Make sure it works for uneven lists!
 *EXAMPLE*
 
 For lists
+
 a = [2, 0, 3, 4, 1, 7, 5, 6, 9, 8]
+
 b = [7, 5, 2, 9, 1, 0, 3, 6, 4, 8]
 
 output should be:
+
 3 match(es) for number(s) 1, 6, 8
 
 
@@ -97,10 +104,11 @@ y = 3
 char = o
 
 output:
+```
 oooo
 oooo
 oooo
-
+```
 
 ### Task 6 ###
 ### Displaying a 'player' in x,y position in the matrix ###
@@ -113,9 +121,11 @@ y = 2
 char = x
 
 Possible output:
+```
 oooo
 oxoo
 oooo
+```
 
 
 ### Task 7 ###
@@ -123,7 +133,7 @@ oooo
 Write area calculator function that takes number of arguments (1 arg. for circle, 2 for square or rectangle, 3 for triangle, 4 for trapeze), automatically detects which equation should it use and then calculates and shows the surface area result.
 
 *Possible output:*
-
+```
 =========================
 | AREA CALCULATOR v.0.1 |
 =========================
@@ -132,8 +142,8 @@ For CIRCLE area enter radius length and hit enter.
 For SQUARE/RECTANGLE area enter high and length separated by comma.
 For TRIANGLE area enter 3 lengths of its sides separated by commas.
 For TRAPEZE area enter 4 lengths of its sides separated by commas.
-
-Your input: 5, 4
+```
+Your input: ```5, 4```
 
 The area of RECTANGLE is 20 square units.
 
@@ -143,7 +153,7 @@ The area of RECTANGLE is 20 square units.
 Write area calculator function that ask a user to provide the size of an area that should be covered with ceramic tiles and the size of a ceramic tile and then calculate the number of tiles needed to cover the area. Then prints the number.
 
 *Possible output:*
-
+```
 =========================
 | Tiles CALCULATOR v.0.1 |
 =========================
@@ -155,14 +165,16 @@ userinput - 0.1, 0.1
 
 You'll need 200 tiles to cover 20 square units area.
 
-
+```
 
 ### Task 9 ###
 ### The parser  ###
 TASK
 Write a HTML parser using HTMLParser and urllib.request that parses the content from a given website and prints the content of all headers on the page and the URLs of all <a> tags.
 
+
 *Possible output:*
+```
 =========================
 website parser v.1
 =========================
@@ -179,8 +191,7 @@ The URLs on the page are:
 http://google.com
 http://gmail.com
 http://yahoo.com
-
-
+```
 
 ### Task 10 ###
 ### The Company and its workers  ###
@@ -208,7 +219,9 @@ The multiplication exercises should operate with numbers
 
 
 EXTRAS:
+
 1. generate a file with answers
+
 2. avoid negative numbers in subtraction results
 
 
