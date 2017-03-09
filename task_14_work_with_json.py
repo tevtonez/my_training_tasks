@@ -2,7 +2,7 @@
 Created on Mar 8, 2017
 @author: kostya
 
-TASK
+TASK 14
 Write a function that creates a JSON file from a given dictionary that contains writers' names and their birthdays.
 Then write another function that opens a JSON file and prints out all key/values pairs.
 '''
