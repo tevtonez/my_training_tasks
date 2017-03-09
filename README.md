@@ -263,6 +263,13 @@ Anne McCaffrey April 1, 1926
 Roger Zelazny May 13, 1937
 ```
 
+### Task 14 ###
+### Work with JSON  ###
+TASK
+Update the code from TASK 14 so user would be able to add new pair 'Name' : 'birthday date'
+and add it to existing JSON file.
+
+
 ### Who do I talk to? ###
 * Repo [owner or admin](mailto:tevtonez@gmail.com)
 
