@@ -269,7 +269,7 @@ TASK
 Update the code from TASK 14 so user would be able to add new pair 'Name' : 'birthday date'
 and add it to existing JSON file.
 
-Bonus for adding new pair without reading the file!
+Bonus for adding new pair without loading full JSON file!
 
 
 ### Who do I talk to? ###
